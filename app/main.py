@@ -3,10 +3,6 @@ import os
 
 
 def main():
-    print("Your code goes here!")
-
-    Uncomment this block to pass the first stage
-    
     command = sys.argv[1]
     if command == "init":
         os.mkdir(".git")
